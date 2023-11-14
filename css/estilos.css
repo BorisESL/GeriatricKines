@@ -58,10 +58,9 @@ body {
   font-weight: bold;
 }
 
-
-.inicio img {
+.carousel-item {
   width: 800px;
-  border-radius: 2rem;
+  
 }
 
 .inicio {
@@ -71,6 +70,11 @@ body {
   margin: 180px;
   font-family: 'DM Serif Display', serif;
   font-weight: bold;
+  height: 50vh;
+}
+
+.inicio img {
+  border-radius: 2rem;
 }
 
 .principal p {
@@ -101,8 +105,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 4rem;
-  padding: 4rem;
+  gap: 6rem;
+  padding: 6rem;
 
 }
 

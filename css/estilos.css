@@ -73,8 +73,12 @@ body {
   font-weight: bold;
 }
 
+.principal p {
+  color: #000000c4;
+}
+
 .banner-medio {
-  background-color: #2b3b2f;
+  background-color: #0d3116f6;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -84,14 +88,32 @@ body {
 }
 
 .texto-medio {
-  color: white;
+  color: #ffffffc4;
   font-family: 'DM Serif Display', serif;
+  
+}
+
+.texto-medio P {
+  color: #ffffffc4;
+}
+
+.servicios {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  padding: 4rem;
+
+}
+
+.servicios p {
+  color: #030303f6;
 }
 
 /************FOOTER***********/
 
 .pie {
-  background-color: #000000;
+  background-color: #053C41;
 }
 
 .pie img {
@@ -217,7 +239,7 @@ p {
 }
 
 .derechos {
-  background-color: #161616;
+  background-color: #1e393c;
   padding: 15px 10px;
   text-align: center;
   color: white;

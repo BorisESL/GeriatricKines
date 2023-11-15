@@ -73,13 +73,17 @@ body {
   height: 50vh;
 }
 
+.principal p {
+  color: #000000c4;
+}
+
 .inicio img {
   border-radius: 2rem;
 }
 
-.principal p {
-  color: #000000c4;
-}
+.principal {-webkit-animation:fade-in-left .6s cubic-bezier(.39,.575,.565,1.000) both;animation:fade-in-left .6s cubic-bezier(.39,.575,.565,1.000) both}
+
+@-webkit-keyframes fade-in-left{0%{-webkit-transform:translateX(-50px);transform:translateX(-50px);opacity:0}100%{-webkit-transform:translateX(0);transform:translateX(0);opacity:1}}@keyframes fade-in-left{0%{-webkit-transform:translateX(-50px);transform:translateX(-50px);opacity:0}100%{-webkit-transform:translateX(0);transform:translateX(0);opacity:1}}
 
 .banner-medio {
   background-color: #0d3116f6;
@@ -91,11 +95,17 @@ body {
   height: 200px;
 }
 
+.banner-medio {animation:fade-in-top .6s cubic-bezier(.39,.575,.565,1.000) both}
+
+@keyframes fade-in-top{0%{transform:translateY(-50px);opacity:0}100%{transform:translateY(0);opacity:1}}
+
 .texto-medio {
   color: #ffffffc4;
   font-family: 'DM Serif Display', serif;
   
 }
+
+
 
 .texto-medio P {
   color: #ffffffc4;
@@ -110,8 +120,17 @@ body {
 
 }
 
+.servicios{animation:fade-in-right .6s cubic-bezier(.39,.575,.565,1.000) both}
+
+@keyframes fade-in-right{0%{transform:translateX(50px);opacity:0}100%{transform:translateX(0);opacity:1}}
+
 .servicios p {
   color: #030303f6;
+}
+
+.card:hover {
+  transform: scale(1.1) translateY(-20px);
+  transition: 0.5s;
 }
 
 /************FOOTER***********/
